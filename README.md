@@ -20,3 +20,14 @@ User can then select the final value.
  
  So, for this point of view, the autocomplete key works like a Select Widget.
  Nota : the autocomplet key return only a Key. So it's not possible to the user to give "My new country" in the widget (in this situation, the widget return a "null" key), where the standard autocomplete return the text (because the standard autocomplete is only here to help the user to give a text).
+ 
+ # How to install the widget in the UIDesigner?
+ Check the procedure in the Bonitasoft documentation here:
+https://documentation.bonitasoft.com/bonita/7.11/_using-the-ui-designer
+
+The procedure to use is the classical one with the UI Designer when you want to integrate a component:
+
+1/ open the UI Designer,
+2/ Click on "Import",
+3/ give the ZIP that you downloaded
+That's it, the widget should be visible on the Widget panel.
